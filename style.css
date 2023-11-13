@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 60px;
+    line-height: 100px;
+    color: #C04461;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 48px;
+    line-height: 70px;
+    color: #C04461;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 30px;
+    line-height: 70px;
+    color: #C04461;
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+div {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+h4 {
+font-family: 'PT Serif Caption', serif;
+font-size: 30px;
+line-height: 70px;
+color: #C04461;
+}
+
+.text-about {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.header {
+    padding: 10px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    vertical-align: bottom;
+}
+
+.menu {
+    margin-left: 191px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    margin-left: 88px;
+}
+
+.menu-item a {
+    color: #C04461;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid #C04461;
+}
+
+.center a {
+    color: #C04461;
+    font-family: 'PT Serif Caption', serif;
+    font-size: 48px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.center a:hover {
+    border-bottom: 2px solid #C04461;
+}
+
+.main {
+    background-image: url("image/main_1.png");
+    background-position: top center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.main-content {
+    padding-top: 103px;
+    padding-bottom: 199px;
+}
+
+.main-content .container {
+    position: relative;
+}
+
+.main-info {
+    max-width: 460px;
+    max-height: 700;
+    border-radius: 40px;
+}
+
+#main-text {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 30px;
+    font-family: 'PT Serif Caption', serif;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: space-between;
+}
+
+.container1 {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center
+    
+}
+
+.why-item {
+    width: 33.333%;
+    padding: 25px;
+}
+.catalog-item {
+    width: 50%;
+    padding: 25px;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.container-header {
+    display: flex;
+}
+.container-logo {
+    width: 30%;
+}
+
+.menu {
+    width: 70%;
+}
+
+table {
+    width: 1300px; /* Ширина таблицы */
+    margin: auto; /* Выравниваем таблицу по центру */
+   }
+
+.footer {
+    padding: 60px 0;
+}
+
+.footer .container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.rights {
+    font-size: 16px;
+    line-height: 20px;
+}
